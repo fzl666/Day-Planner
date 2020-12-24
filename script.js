@@ -38,7 +38,7 @@ function reset(){
  function renderStored() {
      for(i=0;i<=9;i++){
     var saved = localStorage.getItem(load[i]); 
-    if(save!==null){
+    if(saved!==null){
     now[i].setAttribute("placeholder",saved)
     }
 }
